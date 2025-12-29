@@ -26,7 +26,7 @@ htmlcov/
 # Type checking
 .mypy_cache/
 
-# Test files
-test_*.py
+# Temporary test data (not test files themselves)
 test_*.txt
+
 

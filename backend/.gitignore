@@ -1,0 +1,32 @@
+# Environment variables
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE and editor files
+.idea/
+.vscode/
+
+# Virtual environment
+venv/
+
+# Data files - DO NOT COMMIT
+CDRRMO files/
+file_versions/
+
+# Test cache and coverage
+.pytest_cache/
+htmlcov/
+.coverage
+
+# Type checking
+.mypy_cache/
+
+# Test files
+test_*.py
+test_*.txt
+

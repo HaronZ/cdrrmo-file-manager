@@ -1,0 +1,47 @@
+# EditorConfig helps maintain consistent coding styles
+# across different editors and IDEs
+# https://editorconfig.org
+
+# WHY THIS FILE EXISTS:
+# - Ensures all developers use the same formatting (tabs vs spaces, line endings)
+# - VS Code, PyCharm, and other editors automatically read this file
+# - Prevents "noisy" git diffs caused by formatting differences
+
+root = true
+
+# Default settings for all files
+[*]
+indent_style = space
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+# Python files - 4 spaces (PEP 8 standard)
+[*.py]
+indent_size = 4
+max_line_length = 120
+
+# JavaScript/JSX files - 2 spaces (React convention)
+[*.{js,jsx,ts,tsx}]
+indent_size = 2
+
+# JSON files - 2 spaces
+[*.json]
+indent_size = 2
+
+# YAML files - 2 spaces
+[*.{yml,yaml}]
+indent_size = 2
+
+# Markdown files - preserve trailing whitespace (needed for line breaks)
+[*.md]
+trim_trailing_whitespace = false
+
+# Makefile - must use tabs
+[Makefile]
+indent_style = tab
+
+# Docker files
+[Dockerfile*]
+indent_size = 4
